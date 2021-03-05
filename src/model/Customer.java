@@ -43,11 +43,11 @@ public class Customer {
         this.last_name = last_name;
     }
 
-    public String getcnp() {
+    public String getCnp() {
         return cnp;
     }
 
-    public void setcnp(String cnp) {
+    public void setCnp(String cnp) {
         this.cnp = cnp;
     }
 
