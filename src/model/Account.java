@@ -1,10 +1,10 @@
 package model;
 
 public class Account {
-    private String iban;
-    private String currency;
-    private String bic;
-    private float balance;
+    protected String iban;
+    protected String currency;
+    protected String bic;
+    protected float balance;
 
     public Account(String iban, String currency, String bic) {
         this.iban = iban;
